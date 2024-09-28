@@ -18,9 +18,7 @@
 
 | 折叠前 | 折叠后 |
 |---|---|
-| ![图片1描述](图片1链接) | ![图片2描述](图片2链接) |
-| 图片3 | 图片4 |
-| ![图片3描述](图片3链接) | ![图片4描述](图片4链接) |
+| ![original](https://i.imgur.com/e9bRg49.png) | ![after](https://i.imgur.com/RU9JSjR.png) |
 
 **折叠前**
 ![original](https://i.imgur.com/e9bRg49.png)
