@@ -1,4 +1,4 @@
-# gitHub_enhance简介
+# Overview
 这是一个给Readme文件增加目录的浏览器插件
 
 # Features
@@ -8,6 +8,10 @@
 4. 各目录添加h1/h2/h3...视觉提示
 5. 点击目录可跳转到当前目录
 6. 点击插件图片可显示/隐藏卡片
+
+# Future Exclusions
+~~支持firefox explorer~~
+~~支持目录文字大小调节~~
 
 # Demonstration
 **折叠前**
