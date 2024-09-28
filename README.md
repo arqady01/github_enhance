@@ -9,5 +9,10 @@
 5. 点击目录可跳转到当前目录
 6. 点击插件图片可显示/隐藏卡片
 
+# Demonstration
+[original](https://i.imgur.com/e9bRg49.png)
+
+[after](https://i.imgur.com/RU9JSjR.png)
+
 # Issues
 欢迎提交issues督促改进/增加新功能
