@@ -20,11 +20,5 @@
 |---|---|
 | ![original](https://i.imgur.com/e9bRg49.png) | ![after](https://i.imgur.com/RU9JSjR.png) |
 
-**折叠前**
-![original](https://i.imgur.com/e9bRg49.png)
-
-**折叠后**
-![after](https://i.imgur.com/RU9JSjR.png)
-
 # Issues
 欢迎提交issues督促改进/增加新功能
