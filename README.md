@@ -10,8 +10,10 @@
 6. 点击插件图片可显示/隐藏卡片
 
 # Demonstration
+**折叠前**
 ![original](https://i.imgur.com/e9bRg49.png)
 
+**折叠后**
 ![after](https://i.imgur.com/RU9JSjR.png)
 
 # Issues
