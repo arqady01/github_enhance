@@ -1,0 +1,118 @@
+.github-readme-toc {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  width: 300px; /* 从280px增加到300px */
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.github-readme-toc::-webkit-scrollbar {
+  width: 6px;
+}
+
+.github-readme-toc::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.github-readme-toc::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.github-readme-toc ul {
+  list-style-type: none;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.github-readme-toc > ul {
+  padding: 8px 0;
+}
+
+.github-readme-toc .toc-item {
+  position: relative;
+}
+
+.github-readme-toc .toc-item:hover {
+  background-color: #f6f8fa;
+}
+
+.github-readme-toc a {
+  text-decoration: none;
+  color: #24292e;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 4px 16px 4px 0;
+  position: relative; /* 为绝对定位的 header-tag 准备 */
+}
+
+.github-readme-toc a:hover {
+  color: #0366d6;
+}
+
+.github-readme-toc .header-tag {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.75em;
+  color: #6a737d;
+  background-color: #f1f8ff;
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+.github-readme-toc .toggle-button {
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 0.8em;
+  color: #6a737d;
+  display: inline-block; /* 确保按钮和文本在同一行 */
+  width: 12px; /* 给定一个固定宽度 */
+  text-align: center; /* 居中对齐文本 */
+}
+
+.github-readme-toc .toc-item.collapsed > ul {
+  display: none;
+}
+
+.github-readme-toc .toc-h1 { padding-left: 0; }
+.github-readme-toc .toc-h2 { padding-left: 15px; }
+.github-readme-toc .toc-h3 { padding-left: 30px; }
+.github-readme-toc .toc-h4 { padding-left: 45px; }
+.github-readme-toc .toc-h5 { padding-left: 60px; }
+.github-readme-toc .toc-h6 { padding-left: 75px; }
+
+/* 移除这个规则，因为我们现在总是显示滚动条 */
+/* .github-readme-toc:not(:hover):not(.is-scrolling)::-webkit-scrollbar {
+  width: 0;
+} */
+
+/* 在文件末尾添加以下样式 */
+.github-readme-toc .toc-item > ul {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  max-height: none; /* 移除最大高度限制 */
+  opacity: 1;
+  overflow: visible; /* 改为 visible */
+}
+
+.github-readme-toc .toc-item.collapsed > ul {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.github-readme-toc .toc-item.hidden {
+  display: none;
+}

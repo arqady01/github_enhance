@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Enhance TOC",
+  "version": "1.6.3",
+  "description": "为GitHub README页面添加目录",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end",
+      "encoding": "UTF-8"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+      "default_icon": {
+          "48": "icons/icon48.png",
+          "128":"icons/icon128.png"
+      }
+  },
+  "icons": {
+    "48":"icons/icon48.png",
+    "128":"icons/icon128.png"
+  },
+  "options_page": "options.html"
+}
